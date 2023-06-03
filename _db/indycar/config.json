@@ -3,8 +3,8 @@
 	"url": "indycarcalendar.com",
 	"calendarCDN": "files-indycar.motorsportcalendars.com",
 	"availableYears": [2021, 2022, 2023],
-	"sessions": ["practice1", "practice2", "practice3", "qualifying", "warmup", "race"],
-	"featuredSessions": ["race"],
+	"sessions": ["practice1", "practice2", "practice3", "qualifying", "warmup", "race", "race1", "race2"],
+	"featuredSessions": ["race", "race1", "race2"],
 	"collapsedSessions": ["practice1", "practice2", "practice3", "qualifying"],
 	"sessionMap": {
 		"practice1": "p1",
@@ -12,7 +12,9 @@
 		"practice3": "p3",
 		"qualifying": "qualifying",
 		"warmup": "warmup",
-		"race": "race"
+		"race": "race",
+		"race1": "race1",
+		"race2": "race2"
 	},
 	"sessionLengths": {
 		"practice1": 45,
