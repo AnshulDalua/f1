@@ -45,7 +45,19 @@ function generateCalendars(siteKey){
 	
 	// Site specific logic...
 	// F1: Remove Sprint Qualifying for 2023.
-	calendarOptions = calendarOptions.filter(item => item !== "sprintQualifying");
+	if(siteKey == "f1"){
+		calendarOptions = calendarOptions.filter(item => item !== "sprintQualifying");
+	}
+	
+	// IndyCar: Remove practice1, practice2, race1 and race2.
+	if(siteKey == "indycar"){
+		calendarOptions = calendarOptions.filter(item => {
+		  return (
+			item !== "race1" &&
+			item !== "race2"
+		  );
+		});
+	}
 	
 	// Add the alarm suffix.
 	calendarOptions.push("alarm");
@@ -69,12 +81,7 @@ function generateCalendars(siteKey){
 	
 		// If the filename contains alarm then add each of the alarm permutations.
 		if (filename != "alarm") {
-			// Add the filenames pre-alarm options
-			fileNames.push(filename);
-			localizedFilenames.push(filename);
-			
 			if (filename.includes("alarm")) {
-				
 				// If it's F1 Calendar generate all the legacy options....
 				if(siteKey == "f1"){
 					for (alarmOption of legacyAlarmOptions) {
@@ -89,6 +96,9 @@ function generateCalendars(siteKey){
 					}
 					localizedFilenames.push(filename + "-" + alarmOption);
 				}
+			} else {
+				fileNames.push(filename);
+				localizedFilenames.push(filename);
 			}
 		}
 	}
@@ -148,8 +158,24 @@ function generateCalendars(siteKey){
 						// Skip
 						// F1: Some logic to include Sprint Qualifying Races when "Sprint" is selected.
 						// Adjustment for the Baku GP 2023 with the new Sprint weekend format.
+						//
+						// IndyCar: Add logic to include race1 or race2 sessions when race is selected.
+						// Also add practice1 and practice2 sessions when practice is selected
 						if(siteKey == "f1"){
 							if(!sessionArray.includes(sessionMap[sessionKey]) && !(sessionMap[sessionKey] == "sprintQualifying" && (sessionArray.includes("sprint") && !sessionArray.includes("sprintQualifying"))))  continue;
+						} else if(siteKey == "indycar"){
+							switch (sessionMap[sessionKey]) {
+							  case "race1":
+								if (!sessionArray.includes(sessionMap[sessionKey]) && !sessionArray.includes("race")) {
+								  continue;
+								}
+								break;
+							  case "race2":
+								if (!sessionArray.includes(sessionMap[sessionKey]) && !sessionArray.includes("race")) {
+								  continue;
+								}
+								break;
+							}
 						} else {
 							if(!sessionArray.includes(sessionMap[sessionKey])) continue;
 						}

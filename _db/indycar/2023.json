@@ -1,247 +1,245 @@
 {
-	"races": [
-		  {
-			"name": "Grand Prix of St. Petersburg",
-			"location": "St. Petersburg, Florida",
-			"latitude": 25.31319,
-			"longitude": 55.512081,
-			"round": 1,
-			"slug": "grand-prix-of-st-petersburg",
-			"localeKey": "grand-prix-of-st-petersburg",
-			"sessions": {
-			  "practice1": "2023-03-03T20:00:00Z",
-			  "practice2": "2023-03-04T15:00:00Z",
-			  "qualifying": "2023-03-04T19:15:00Z",
-			  "warmup": "2023-03-05T14:00:00Z",
-			  "race": "2023-03-05T17:00:00Z"
-			}
-		  },
-		  {
-			"name": "Texas 375",
-			"location": "Fort Worth, Texas",
-			"latitude": 25.31319,
-			"longitude": 55.512081,
-			"round": 2,
-			"slug": "ppg-375",
-			"localeKey": "ppg-375",
-			"sessions": {
-			  "practice1": "2023-04-01T13:00:00Z",
-			  "qualifying": "2023-04-01T16:15:00Z",
-			  "practice2": "2023-04-01T18:30:00Z",
-			  "race": "2023-04-02T16:10:00Z"
-			}
-		  },
-		  {
-			"name": "Grand Prix of Long Beach",
-			"location": "Long Beach, California",
-			"latitude": 25.31319,
-			"longitude": 55.512081,
-			"round": 3,
-			"slug": "acura-grand-prix-of-long-beach",
-			"localeKey": "acura-grand-prix-of-long-beach",
-			"sessions": {
-			  "practice1": "2023-04-14T22:00:00Z",
-			  "practice2": "2023-04-15T15:45:00Z",
-			  "qualifying": "2023-04-15T19:05:00Z",
-			  "warmup": "2023-04-16T16:00:00Z",
-			  "race": "2023-04-16T19:30:00Z"
-			}
-		  },
-		  {
-			"name": "Grand Prix of Alabama",
-			"location": "Birmingham, Alabama",
-			"latitude": 25.31319,
-			"longitude": 55.512081,
-			"round": 4,
-			"slug": "grand-prix-of-alabama",
-			"localeKey": "grand-prix-of-alabama",
-			"sessions": {
-			  "practice1": "2023-04-28T19:40:00Z",
-			  "practice2": "2023-04-29T16:00:00Z",
-			  "qualifying": "2023-04-29T19:00:00Z",
-			  "warmup": "2023-04-30T16:00:00Z",
-			  "race": "2023-04-30T19:00:00Z"
-			}
-		  },
-		  {
-			"name": "Grand Prix of Indianapolis",
-			"location": "Speedway, Indiana",
-			"latitude": 25.31319,
-			"longitude": 55.512081,
-			"round": 5,
-			"slug": "gmr-grand-prix",
-			"localeKey": "gmr-grand-prix",
-			"sessions": {
-			  "race": "2023-05-13T19:30:00Z"
-			}
-		  },
-		  {
-			"name": "Indianapolis 500",
-			"location": "Speedway, Indiana",
-			"latitude": 25.31319,
-			"longitude": 55.512081,
-			"round": 6,
-			"slug": "indy-500",
-			"localeKey": "indy-500",
-			"sessions": {
-			  "race": "2023-05-28T15:00:00Z"
-			}
-		  },
-		  {
-			"name": "Detroit Grand Prix",
-			"location": "Detroit, Michigan",
-			"latitude": 25.31319,
-			"longitude": 55.512081,
-			"round": 7,
-			"slug": "chevrolet-detroit-grand-prix",
-			"localeKey": "chevrolet-detroit-grand-prix",
-			"sessions": {
-			  "practice2": "2023-06-03T13:05:00.000Z",
-			  "qualifying": "2023-06-03T17:20:00.000Z",
-			  "warmup": "2023-06-04T14:00:00.000Z",
-			  "race": "2023-06-04T19:00:00.000Z"
-			}
-		  },
-		  {
-			"name": "Grand Prix at Road America",
-			"location": "Road America",
-			"latitude": 0,
-			"longitude": 0,
-			"round": 8,
-			"slug": "sonsio",
-			"localeKey": "sonsio",
-			"sessions": {
-			  "practice1": "2023-06-16T19:30:00.000Z",
-			  "practice2": "2023-06-17T13:45:00.000Z",
-			  "qualifying": "2023-06-17T16:45:00.000Z",
-			  "warmup": "2023-06-18T13:15:00.000Z",
-			  "race": "2023-06-18T15:45:00.000Z"
-			}
-		  },
-		  {
-			"name": "Grand Prix of Mid-Ohio",
-			"location": "Mid-Ohio",
-			"latitude": 25.31319,
-			"longitude": 55.512081,
-			"round": 9,
-			"slug": "honda-indy-200-mid-ohio",
-			"localeKey": "honda-indy-200-mid-ohio",
-			"sessions": {
-			  "practice1": "2023-06-30T18:30:00.000Z",
-			  "practice2": "2023-07-01T12:30:00.000Z",
-			  "qualifying": "2023-07-01T17:30:00.000Z",
-			  "warmup": "2023-07-02T13:45:00.000Z",
-			  "race": "2023-07-02T16:15:00.000Z"
-			}
-		  },
-		  {
-			"name": "Grand Prix of Toronto",
-			"location": "Toronto",
-			"latitude": 25.31319,
-			"longitude": 55.512081,
-			"round": 10,
-			"slug": "grand-prix-of-toronto",
-			"localeKey": "grand-prix-of-toronto",
-			"sessions": {
-			  "practice1": "2023-07-14T18:00:00.000Z",
-			  "practice2": "2023-07-15T13:00:00.000Z",
-			  "qualifying": "2023-07-15T17:00:00.000Z",
-			  "warmup": "2023-07-16T13:00:00.000Z",
-			  "race": "2023-07-16T16:15:00.000Z"
-			}
-		  },
-		  {
-			"name": "Iowa Doubleheader",
-			"location": "",
-			"latitude": 0,
-			"longitude": 0,
-			"round": 11,
-			"slug": "iowa-doubleheader",
-			"localeKey": "iowa-doubleheader",
-			"sessions": {
-			  "practice": "2023-07-21T19:00:00.000Z",
-			  "qualifying": "2023-07-22T12:30:00.000Z",
-			  "race1": "2023-07-22T17:45:00.000Z",
-			  "race2": "2023-07-23T16:45:00.000Z"
-			}
-		  },
-		  {
-			"name": "Grand Prix of Nashville",
-			"location": "",
-			"latitude": 0,
-			"longitude": 0,
-			"round": 12,
-			"slug": "grand-prix-of-nashville",
-			"localeKey": "grand-prix-of-nashville",
-			"sessions": {
-			  "practice1": "2023-08-04T19:00:00.000Z",
-			  "practice2": "2023-08-05T14:00:00.000Z",
-			  "qualifying": "2023-08-05T17:00:00.000Z",
-			  "warmup": "2023-08-05T20:15:00.000Z",
-			  "race": "2023-08-06T14:45:00.000Z"
-			}
-		  },
-		  {
-			"name": "Grand Prix of Indianapolis Race 2",
-			"location": "",
-			"latitude": 0,
-			"longitude": 0,
-			"round": 13,
-			"slug": "grand-prix-of-indianapolis-2",
-			"localeKey": "grand-prix-of-indianapolis-2",
-			"sessions": {
-			  "practice": "2023-08-11T12:30:00.000Z",
-			  "qualifying": "2023-08-11T16:00:00.000Z",
-			  "warmup": "2023-08-12T13:15:00.000Z",
-			  "race": "2023-08-12T16:45:00.000Z"
-			}
-		  },
-		  {
-			"name": "St. Louis 500",
-			"location": "",
-			"latitude": 0,
-			"longitude": 0,
-			"round": 14,
-			"slug": "st-louis-500",
-			"localeKey": "st-louis-500",
-			"sessions": {
-			  "practice1": "2023-08-26T13:45:00.000Z",
-			  "qualifying": "2023-08-26T17:00:00.000Z",
-			  "practice": "2023-08-26T20:30:00.000Z",
-			  "race": "2023-08-27T18:15:00.000Z"
-			}
-		  },
-		  {
-			"name": "Grand Prix of Portland",
-			"location": "",
-			"latitude": 0,
-			"longitude": 0,
-			"round": 15,
-			"slug": "grand-prix-of-portland",
-			"localeKey": "grand-prix-of-portland",
-			"sessions": {
-			  "practice1": "2023-09-01T20:30:00.000Z",
-			  "practice2": "2023-09-02T15:00:00.000Z",
-			  "qualifying": "2023-09-02T18:00:00.000Z",
-			  "practice": "2023-09-02T22:15:00.000Z",
-			  "race": "2023-09-03T17:45:00.000Z"
-			}
-		  },
-		  {
-			"name": "Grand Prix of Laguna Seca",
-			"location": "",
-			"latitude": 0,
-			"longitude": 0,
-			"round": 16,
-			"slug": "grand-prix-of-laguna-seca",
-			"localeKey": "grand-prix-of-laguna-seca",
-			"sessions": {
-			  "race": "2023-09-10T17:15:00.000Z",
-			  "practice1": "2023-09-08T21:00:00.000Z",
-			  "practice2": "2023-09-09T15:00:00.000Z",
-			  "qualifying": "2023-09-09T20:00:00.000Z",
-			  "warmup": "2023-09-10T15:00:00.000Z"
-			}
-		  }
-	]
+  "races": [
+	{
+	  "name": "Grand Prix of St. Petersburg",
+	  "location": "St. Petersburg, Florida",
+	  "latitude": 25.31319,
+	  "longitude": 55.512081,
+	  "round": 1,
+	  "slug": "grand-prix-of-st-petersburg",
+	  "localeKey": "grand-prix-of-st-petersburg",
+	  "sessions": {
+		"practice1": "2023-03-03T20:00:00Z",
+		"practice2": "2023-03-04T15:00:00Z",
+		"qualifying": "2023-03-04T19:15:00Z",
+		"warmup": "2023-03-05T14:00:00Z",
+		"race": "2023-03-05T17:00:00Z"
+	  }
+	},
+	{
+	  "name": "Texas 375",
+	  "location": "Fort Worth, Texas",
+	  "latitude": 25.31319,
+	  "longitude": 55.512081,
+	  "round": 2,
+	  "slug": "ppg-375",
+	  "localeKey": "ppg-375",
+	  "sessions": {
+		"practice1": "2023-04-01T13:00:00Z",
+		"qualifying": "2023-04-01T16:15:00Z",
+		"practice2": "2023-04-01T18:30:00Z",
+		"race": "2023-04-02T16:10:00Z"
+	  }
+	},
+	{
+	  "name": "Grand Prix of Long Beach",
+	  "location": "Long Beach, California",
+	  "latitude": 25.31319,
+	  "longitude": 55.512081,
+	  "round": 3,
+	  "slug": "acura-grand-prix-of-long-beach",
+	  "localeKey": "acura-grand-prix-of-long-beach",
+	  "sessions": {
+		"practice1": "2023-04-14T22:00:00Z",
+		"practice2": "2023-04-15T15:45:00Z",
+		"qualifying": "2023-04-15T19:05:00Z",
+		"warmup": "2023-04-16T16:00:00Z",
+		"race": "2023-04-16T19:30:00Z"
+	  }
+	},
+	{
+	  "name": "Grand Prix of Alabama",
+	  "location": "Birmingham, Alabama",
+	  "latitude": 25.31319,
+	  "longitude": 55.512081,
+	  "round": 4,
+	  "slug": "grand-prix-of-alabama",
+	  "localeKey": "grand-prix-of-alabama",
+	  "sessions": {
+		"practice1": "2023-04-28T19:40:00Z",
+		"practice2": "2023-04-29T16:00:00Z",
+		"qualifying": "2023-04-29T19:00:00Z",
+		"warmup": "2023-04-30T16:00:00Z",
+		"race": "2023-04-30T19:00:00Z"
+	  }
+	},
+	{
+	  "name": "Grand Prix of Indianapolis",
+	  "location": "Speedway, Indiana",
+	  "latitude": 25.31319,
+	  "longitude": 55.512081,
+	  "round": 5,
+	  "slug": "gmr-grand-prix",
+	  "localeKey": "gmr-grand-prix",
+	  "sessions": {
+		"race": "2023-05-13T19:30:00Z"
+	  }
+	},
+	{
+	  "name": "Indianapolis 500",
+	  "location": "Speedway, Indiana",
+	  "latitude": 25.31319,
+	  "longitude": 55.512081,
+	  "round": 6,
+	  "slug": "indy-500",
+	  "localeKey": "indy-500",
+	  "sessions": {
+		"race": "2023-05-28T15:00:00Z"
+	  }
+	},
+	{
+	  "name": "Detroit Grand Prix",
+	  "location": "Detroit, Michigan",
+	  "latitude": 25.31319,
+	  "longitude": 55.512081,
+	  "round": 7,
+	  "slug": "detroit-grand-prix",
+	  "localeKey": "detroit-grand-prix",
+	  "sessions": {
+		"practice1": "2023-06-02T22:00:00Z",
+		"practice2": "2023-06-03T13:05:00Z",
+		"qualifying": "2023-06-03T17:20:00Z",
+		"race": "2023-06-04T19:00:00Z"
+	  }
+	},
+	{
+	  "name": "Grand Prix at Road America",
+	  "location": "Road America",
+	  "latitude": 0,
+	  "longitude": 0,
+	  "round": 8,
+	  "slug": "grand-prix-at-road-america",
+	  "localeKey": "grand-prix-at-road-america",
+	  "sessions": {
+		"practice1": "2023-06-16T19:30:00.000Z",
+		"practice2": "2023-06-17T13:45:00.000Z",
+		"qualifying": "2023-06-17T16:45:00.000Z",
+		"warmup": "2023-06-18T13:15:00.000Z",
+		"race": "2023-06-18T15:45:00.000Z"
+	  }
+	},
+	{
+	  "name": "Grand Prix of Mid-Ohio",
+	  "location": "Mid-Ohio",
+	  "latitude": 25.31319,
+	  "longitude": 55.512081,
+	  "round": 9,
+	  "slug": "grand-prix-of-mid-ohio",
+	  "localeKey": "grand-prix-of-mid-ohio",
+	  "sessions": {
+		"practice1": "2023-06-30T18:30:00.000Z",
+		"practice2": "2023-07-01T12:30:00.000Z",
+		"qualifying": "2023-07-01T17:30:00.000Z",
+		"warmup": "2023-07-02T13:45:00.000Z",
+		"race": "2023-07-02T16:15:00.000Z"
+	  }
+	},
+	{
+	  "name": "Grand Prix of Toronto",
+	  "location": "Toronto",
+	  "latitude": 25.31319,
+	  "longitude": 55.512081,
+	  "round": 10,
+	  "slug": "grand-prix-of-toronto",
+	  "localeKey": "grand-prix-of-toronto",
+	  "sessions": {
+		"practice1": "2023-07-14T18:00:00.000Z",
+		"practice2": "2023-07-15T13:00:00.000Z",
+		"qualifying": "2023-07-15T17:00:00.000Z",
+		"warmup": "2023-07-16T13:00:00.000Z",
+		"race": "2023-07-16T16:15:00.000Z"
+	  }
+	},
+	{
+	  "name": "Iowa Doubleheader",
+	  "location": "",
+	  "latitude": 0,
+	  "longitude": 0,
+	  "round": 11,
+	  "slug": "iowa-doubleheader",
+	  "localeKey": "iowa-doubleheader",
+	  "sessions": {
+		"practice": "2023-07-21T19:00:00.000Z",
+		"qualifying": "2023-07-22T12:30:00.000Z",
+		"race1": "2023-07-22T17:45:00.000Z",
+		"race2": "2023-07-23T16:45:00.000Z"
+	  }
+	},
+	{
+	  "name": "Grand Prix of Nashville",
+	  "location": "",
+	  "latitude": 0,
+	  "longitude": 0,
+	  "round": 13,
+	  "slug": "grand-prix-of-nashville",
+	  "localeKey": "grand-prix-of-nashville",
+	  "sessions": {
+		"practice1": "2023-08-04T19:00:00.000Z",
+		"practice2": "2023-08-05T14:00:00.000Z",
+		"qualifying": "2023-08-05T17:00:00.000Z",
+		"warmup": "2023-08-05T20:15:00.000Z",
+		"race": "2023-08-06T14:45:00.000Z"
+	  }
+	},
+	{
+	  "name": "Grand Prix of Indianapolis Race 2",
+	  "location": "",
+	  "latitude": 0,
+	  "longitude": 0,
+	  "round": 14,
+	  "slug": "grand-prix-of-indianapolis-race-2",
+	  "localeKey": "grand-prix-of-indianapolis-race-2",
+	  "sessions": {
+		"practice": "2023-08-11T12:30:00.000Z",
+		"qualifying": "2023-08-11T16:00:00.000Z",
+		"warmup": "2023-08-12T13:15:00.000Z",
+		"race": "2023-08-12T16:45:00.000Z"
+	  }
+	},
+	{
+	  "name": "St. Louis 500",
+	  "location": "",
+	  "latitude": 0,
+	  "longitude": 0,
+	  "round": 15,
+	  "slug": "st-louis-500",
+	  "localeKey": "st-louis-500",
+	  "sessions": {
+		"practice1": "2023-08-26T13:45:00.000Z",
+		"qualifying": "2023-08-26T17:00:00.000Z",
+		"race": "2023-08-27T18:15:00.000Z"
+	  }
+	},
+	{
+	  "name": "Grand Prix of Portland",
+	  "location": "",
+	  "latitude": 0,
+	  "longitude": 0,
+	  "round": 16,
+	  "slug": "grand-prix-of-portland",
+	  "localeKey": "grand-prix-of-portland",
+	  "sessions": {
+		"practice1": "2023-09-01T20:30:00.000Z",
+		"practice2": "2023-09-02T15:00:00.000Z",
+		"qualifying": "2023-09-02T18:00:00.000Z",
+		"race": "2023-09-03T17:45:00.000Z"
+	  }
+	},
+	{
+	  "name": "Grand Prix of Laguna Seca",
+	  "location": "",
+	  "latitude": 0,
+	  "longitude": 0,
+	  "round": 17,
+	  "slug": "grand-prix-of-leguna-seca",
+	  "localeKey": "grand-prix-of-leguna-seca",
+	  "sessions": {
+		"practice1": "2023-09-08T21:00:00.000Z",
+		"practice2": "2023-09-09T15:00:00.000Z",
+		"qualifying": "2023-09-09T20:00:00.000Z",
+		"warmup": "2023-09-10T15:00:00.000Z",
+		"race": "2023-09-10T17:15:00.000Z"
+	  }
+	}
+  ]
 }
